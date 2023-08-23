@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<style>
+
+</style>
+<body>
+
+    <div id="main_div">
+        <p id="text1" style="background-color: red;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat, aut?</p>
+        <p id="text2" style="background-color: rgb(50, 4, 157);">Lorem ipsum dolor sit amet.</p>
+        <p id="text3" style="background-color: rgb(3, 112, 28);">Lorem, ipsum dolor.</p>
+    </div>
+    
+    <br>
+    <form method="post">
+        <label for="name" class="label-class">Name : </label>
+        <input type="text" id="name" name="name">
+        <br>
+
+        <label for="pno" class="label-class">Phone Number : </label>
+        <input type="number" id="pno" name="pno">
+        <br>
+
+        <label for="address" class="label-class">Address : </label>
+        <textarea id="address" cols="30" rows="10"></textarea>
+
+        <div>
+            <label for="male">Male : </label>
+            <input type="radio" name="gender" value="male" id="male">
+            <label for="female">Female : </label>
+            <input type="radio" name="gender" value="female" id="female">
+        </div>
+
+        <div>
+            Hobbies : &nbsp;
+            <label for="dance">Dance </label>
+            <input type="checkbox" name="hobby" value="dance" id="dance">
+            <label for="sing">Sing </label>
+            <input type="checkbox" name="hobby" value="sing" id="sing">
+        </div>
+
+        <!-- <input type="search" name="search" id="se"> -->
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>

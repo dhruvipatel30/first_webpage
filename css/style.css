@@ -1,0 +1,25 @@
+body{
+    background-color: rgba(234, 85, 172, 0.938);
+}
+input{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #000;
+}
+
+label{
+    color: aqua;
+}
+
+.label-class{
+    border: 5px;
+}
+
+#main_div{
+    border: 3px solid black;
+}
+
+#text1, #text2, #text3{
+    border: 2px solid crimson;
+    position: relative;
+    top: 3;
+}
